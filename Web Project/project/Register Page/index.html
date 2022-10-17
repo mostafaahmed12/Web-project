@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="This is our online shopping project">
+    <title>Register Page</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <link rel="stylesheet" href="edit.css">
+
+    <form name="register" onsubmit="return validate_form()">
+        <div class="container">        
+            <div class="main">
+                <h1>Register Here</h1>
+                <input class="first_name" type="text" placeholder="First Name" name="fs" id="fs">
+                <input class="last_name" type="text" placeholder="Last Name" name="ls" id="ls">
+                <input class="email" type="email" placeholder="Email" name="em" id="em">
+                <input class="password" type="password" placeholder="Password" name="pass" id="pass" minlength="4" maxlength="10">
+                <input class="phone" type="text" placeholder="Phone" name="ph" id="ph" pattern="[0-9]+">
+                <p>please enter number only</p>
+                <div >birthday :  <input class="birthday" type="date" placeholder="Birthday" name="br" id="br"></div>
+                <select name="gn" id="gn" class="gender">
+                    <option value="">--Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <div>
+                    <button type="submit" class="submit" onclick="OnClick()"> Submit</button> 
+                </div>
+                
+            </div>
+        </div>
+    </form>
+</body>
+</html>

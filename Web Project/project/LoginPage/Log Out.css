@@ -1,0 +1,33 @@
+body {
+    background-size: cover;
+}
+
+.Logoutbox{
+    width:400px;
+    height:400px;
+    background-color: black;
+    opacity: 70%;
+    text-align: center;
+    top:50%;
+    left : 50%;
+    box-sizing: border-box;
+    position:absolute;
+    transform: translate(-50% , -50%);
+    color: white;
+    font-size: 20px;
+}
+
+.Logoutbox input[type="button"] {
+    border:none;
+    outline:none;
+    background:yellowgreen;
+    height:40px;
+    color:white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.Logoutbox input[type="button"]:hover {
+    cursor:pointer;
+    color: white;
+    background:red;
+}

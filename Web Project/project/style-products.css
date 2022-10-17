@@ -1,0 +1,46 @@
+.container{
+    margin: 10px; 
+    padding: 10px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.row img{
+    width: 30%;
+    height: 30%;
+    border: 1px solid black;
+    border-radius: 20px;
+   float: right;
+}
+.row p{
+    font-size: x-large;
+    padding: 10px;
+    width: 70%;
+    background-color: lightyellow;
+}
+.item img{
+    width: 20%;
+    height: 20%;
+    border: 1px solid black;
+    border-radius: 20px;
+    float: left;
+}
+.item p{
+    font-size: x-large;
+    padding: 10px;
+    width: 80%;
+    background-color: lightyellow;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #3167eb;
+}
+.button:hover{
+    background-color: #205493;
+}
